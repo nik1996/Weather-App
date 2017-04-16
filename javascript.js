@@ -40,12 +40,9 @@ $.getJSON("http://api.openweathermap.org/data/2.5/weather?q="+currentcity+"&unit
     console.log(obj2);
     $("#temp").html(a.main.temp);
     $("#unit").html(" F");
-    //$(".place").html(a.name+" , "+a.sys.country);
     var url="http://openweathermap.org/img/w/"+a.weather[0].icon+".png";
     $(".description").html(a.weather[0].main+"<img src="+url+">"); 
-  //$("body").toggleClass("img-responsive");
   $("body").css("background","url("+imgurl(a.weather[0].main)+")");
-  //$("body").css("background","url("+imgurl("Clear")+")");
   $("body").css("background-size","cover");
     $(".wind").html("Wind-speed : "+a.wind.speed);
   });

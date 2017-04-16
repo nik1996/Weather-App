@@ -1,0 +1,82 @@
+body{
+  /*background-color:black;
+  background-size:100% 100%;*/
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+h1{
+  color:black;
+  font-family: 'Lobster', cursive;
+  font-size:7em;
+}
+
+.whole{
+  color:black;
+  font-size:2em;
+  /*margin-top:5rem;
+  margin-bottom:12rem;
+  background-color:white;
+  /*height:8rem;*/
+ }
+
+.tem{
+  margin-top:1em;
+  margin-bottom:auto;
+  margin-left:7em;
+  background-color:white;
+  font-size:4em;
+  width:33%;
+  border-radius:.5em;
+  border-color:black;
+  border-style:outset;
+}
+
+@media (max-width: 800px){
+  .tem{
+  margin-top:.5em;
+  margin-bottom:auto;
+  margin-left:2.5em;
+  background-color:white;
+  font-size:3em;
+  width:50%;
+  border-radius:.5em;
+  border-color:black;
+  border-style:outset;
+  }
+}
+ 
+ .btn{
+  margin-bottom:5em;
+  margin-left:2.5em;
+  border-radius:.5em;
+}
+
+.place{
+  background-color:white;
+  width:10em;
+  margin-left:1.3em;
+  margin-right:3.5em;
+  border-radius:.5em;
+  border-color:black;
+  border-style:outset;
+}
+
+.description{
+  background-color:white;
+  width:10em;
+  margin-left:1.3em;
+  margin-right:3.5em;
+  border-radius:.5em;
+  border-color:black;
+  border-style:outset;
+}
+
+.wind{
+  background-color:white;
+  width:10em;
+  margin-left:1.3em;
+  border-radius:.5em;
+  border-color:black;
+  border-style:outset;
+}

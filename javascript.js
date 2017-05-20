@@ -1,6 +1,3 @@
-$(window).load(function(){
-  alert("If operating on https please switch to http.");
-});
 var currentcity,obj1,obj2;
 function imgurl(des){
   if(des==="Haze"||des==="Mist"||des==="Smoke"||des==="Fog"){

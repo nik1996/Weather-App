@@ -1,11 +1,6 @@
 # **Weather-App**
 
-The webpage will track your current city where you are located via your ip address.
-
-Then the temperature of the city along with weather conditions are dispalyed.
-
-The background image changes as per the weather conditions in the city.
-
-
-### How to use :  
-Download this project in your local machine. Open index.html in your browser.
+A webpage that shows local weather of city. Current city of user is tracked through IP address with the help of ipapi API. The IP address 
+is sent to the API and response is sent back in JSON format. The current city of user is sent to openweathermap API. The data about 
+weather conditions is sent back by API in JSON format. The background image of the webpage changes according to the current weather 
+condition.
